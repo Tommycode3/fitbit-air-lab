@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Captures contain personal physiological data: never commit them
+lab/captures/*
+!lab/captures/.gitkeep
+
+.DS_Store
